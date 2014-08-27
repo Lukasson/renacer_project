@@ -27,6 +27,22 @@ header li{
 #slideshow{
   background: #51EBB7;
   clear: both;
+  margin: 0 auto;
+  padding-left: 100px;
+}
+
+.slideshow_items li{
+  display: inline-block;
+}
+
+.slideshow_items a{
+  background: url("http://placehold.it/10x10");
+  background-repeat: no-repeat;
+  width: 10px;
+  height: 0;
+  padding-top: 10px;
+  overflow: hidden;
+  display: inline-block;
 }
 
 #row_container_one{
