@@ -1,3 +1,10 @@
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 #container{
   background: #51EBB7;
   width: 800px;
@@ -15,8 +22,7 @@ header li{
 #logo{
   width: 400px;
   float: left;
-  background: url("http://placehold.it/15x45");
-  background-repeat: no-repeat;
+  margin: 0 auto 0 auto;
 }
 
 #links{
@@ -58,21 +64,21 @@ header li{
   background: #E9E2C5;
 }
 
+#article p{
+  padding: 0 50 0 50;
+}
+
 #list{
   width: 400px;
   float: left;
   background: #E9E2C5;
 }
 
-
-h2{
-  background: url("http://placehold.it/30x30");
+.list_items a{
+  background: url("http://placehold.it/15x15");
   background-repeat: no-repeat;
-  padding-left: 40px;
+  padding-left: 30px;
 }
-
-/*.list_items li{
-}*/
 
 #bio{
   background: #BEEFF1;
